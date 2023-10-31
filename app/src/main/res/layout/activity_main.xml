@@ -11,9 +11,7 @@
 
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="133dp"
         android:background="#13E6AA"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/view9"
         app:layout_constraintTop_toBottomOf="@+id/view9" />
 
@@ -22,9 +20,8 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="132dp"
-        android:layout_marginEnd="180dp"
         android:background="#673AB7"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view4"
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
@@ -33,7 +30,6 @@
         android:layout_height="50dp"
         android:layout_marginStart="131dp"
         android:background="#13E6AA"
-        app:layout_constraintEnd_toStartOf="@+id/view9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view9" />
 
@@ -43,7 +39,6 @@
         android:layout_height="50dp"
         android:layout_marginStart="131dp"
         android:background="#13E6AA"
-        app:layout_constraintEnd_toStartOf="@+id/view2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
 
@@ -51,18 +46,15 @@
         android:id="@+id/view5"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginTop="51dp"
         android:background="#13E6AA"
         app:layout_constraintStart_toEndOf="@+id/view2"
-        app:layout_constraintTop_toTopOf="@+id/view2" />
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
 
     <View
         android:id="@+id/view6"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="83dp"
         android:background="#673AB7"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/view"
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
@@ -88,12 +80,10 @@
         android:id="@+id/view9"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="178dp"
-        android:layout_marginEnd="183dp"
         android:background="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view4" />
+        app:layout_constraintEnd_toStartOf="@+id/view5"
+        app:layout_constraintStart_toEndOf="@+id/view4"
+        app:layout_constraintTop_toBottomOf="@+id/view5" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
